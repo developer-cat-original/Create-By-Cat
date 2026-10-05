@@ -1,3 +1,65 @@
 {
-    
+    "format_version": 2,
+    "metadata": {
+        "authors": [
+            "Dev Cat"
+        ],
+        "product_type": "addon"
+    },
+    "header": {
+        "pack_scope": "world",
+        "name": "Create",
+        "description": "Definitive Create Mod Port",
+        "uuid": "5238240a-9583-4bed-b97e-75ea2f6c8c41",
+        "version": [
+            1,
+            0,
+            2
+        ],
+        "min_engine_version": [
+            1,
+            26,
+            50
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "6d0c0311-80dc-465b-8eaf-219dd3625904",
+            "version": [
+                1,
+                0,
+                2
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "2bac0c54-0f22-4af4-9b89-b80b945dd085",
+            "version": [
+                1,
+                0,
+                2
+            ],
+            "entry": "scripts/create/launcher.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.10.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.2.0"
+        },
+        {
+            "uuid": "437f9c45-237f-461b-9769-f72eb247b1e1",
+            "version": [
+                1,
+                0,
+                2
+            ]
+        }
+    ]
 }
